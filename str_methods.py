@@ -6,7 +6,7 @@ if name.startswith("Swa"):
 if "a" in name:
     print("Да, строка содержит букву 'a'")
 
-if name.find("war"):
+if name.find("war") != -1:
     print("Да, в строке есть 'war'")
 
 delimiter = "_*_"
